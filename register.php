@@ -30,7 +30,7 @@
             </fieldset>
             <fieldset>
                 <legend>Password</legend>
-                <input type="password" name="password" placeholder="Enter your Password" required>
+                <input type="password" name="password" placeholder="Enter your Password" pattern=".{8,}" title="Should be atleast 8 characters long" required>
             </fieldset>
             <fieldset>
                 <legend>Confirm Password</legend>
