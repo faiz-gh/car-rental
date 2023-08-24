@@ -49,6 +49,12 @@ img {
     width: 100%;
 }
 
+fieldset {
+    border-color: var(--primary-background);
+    border-style: solid;
+    border-radius: 5px;
+}
+
 .content-wrapper {
     height: 100vh;
     display: flex;
@@ -81,6 +87,9 @@ img {
     height: 3rem;
     text-indent: 1rem;
     font-size: 0.95rem;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .login-form button {
@@ -125,6 +134,9 @@ img {
     height: 3rem;
     text-indent: 1rem;
     font-size: 0.95rem;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .register-form button {

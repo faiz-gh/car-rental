@@ -18,11 +18,11 @@
             <h2>Login Form</h2>
             <fieldset>
                 <legend>Email</legend>
-                <input type="email" name="email" placeholder="Enter your Email">
+                <input type="email" name="email" placeholder="Enter your Email" required>
             </fieldset>
             <fieldset>
                 <legend>Password</legend>
-                <input type="password" name="password" placeholder="Enter your Password" pattern="{8,}" title="Password Not Valid">
+                <input type="password" name="password" placeholder="Enter your Password" required>
             </fieldset>
             <a href="home.php"><button type="submit" name="submit">Login</button></a>
             <a href="register.php">Create Account?</a>
