@@ -14,7 +14,7 @@
 <body>
     <!-- Main Wrapper -->
     <div class="content-wrapper">
-        <form class="register-form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+        <form class="register-form" action="index.php" method="post">
             <h2>Registration Form</h2>
             <fieldset>
                 <legend>Fullname</legend>
@@ -34,7 +34,7 @@
             </fieldset>
             <fieldset>
                 <legend>Confirm Password</legend>
-                <input type="password" name="confirmpassword" placeholder="Re-Enter your Password" required>
+                <input type="password" name="confirmpassword" placeholder="Re-Enter your Password" pattern=".{8,}" title="Should be atleast 8 characters long" required>
             </fieldset>
             <button type="submit" name="submit">Register</button>
             <a href="index.php">Return to Login?</a>

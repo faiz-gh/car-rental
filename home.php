@@ -19,7 +19,9 @@
 
     <!-- Main Wrapper -->
     <div class="content-wrapper">
-
+        <section id="carousel">
+            <img src="./assets/img/cars.jpg" alt="">
+        </section>
     </div>
 
     <!-- Footer Module -->

@@ -1,28 +1,18 @@
 <nav>
     <ul>
         <li>
-            <h1><a href="home.php">
-                    <span class="fa-solid fa-car" style="color: #8AA8FF;" aria-hidden="true"></span>
+            <h1>
+                <a class="logo" href="home.php">
+                    <span class="fa-solid fa-car" aria-hidden="true"></span>
                     <span>Car Rental</span>
-                </a></h1>
+                </a>
+            </h1>
         </li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="#carousel">Home</a></li>
+        <li><a href="brands.php">Brands</a></li>
+        <li><a href="cars.php">Cars</a></li>
+        <li><a href="#contact">About</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li>
-            <a href="https://www.linkedin.com/in/faizghanchi/" target="_blank">
-                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-                <span class="sr-only">LinkedIn</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/faiz-gh/" target="_blank">
-                <span class="fa-brands fa-square-github" aria-hidden="true"></span>
-                <span class="sr-only">Github</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://drive.google.com/file/d/1o2RFlxCaBqEgFdG0VVZT7UKg760WP_UH/view?usp=drive_link" target="_blank" class="button">Resume</a>
-        </li>
+        <li><a class="button" href="index.php">Login</a></li>
     </ul>
 </nav>

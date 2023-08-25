@@ -14,7 +14,7 @@
 <body>
     <!-- Main Wrapper -->
     <div class="content-wrapper">
-        <form class="login-form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+        <form class="login-form" action="home.php" method="post">
             <h2>Login Form</h2>
             <fieldset>
                 <legend>Email</legend>
