@@ -18,3 +18,4 @@ if ($conn->connect_error) {
 
 // Saving Connection variable in Session
 $_SESSION['DB'] = $conn;
+ 
