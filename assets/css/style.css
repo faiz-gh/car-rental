@@ -36,6 +36,10 @@ h3 {
     margin: 0;
 }
 
+input {
+    font-family: var(--sans);
+}
+
 a {
     color: var(--primary);
 }
@@ -47,6 +51,10 @@ a:hover {
 
 img {
     width: 100%;
+}
+
+button {
+    font-family: var(--sans);
 }
 
 fieldset {
